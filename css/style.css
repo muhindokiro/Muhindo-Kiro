@@ -105,3 +105,14 @@ body:after {
     border-color: #fab95b;
     color: #fff;
 }
+
+.btn.btn-primary:hover {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.btn.btn-primary.btn-black--hover:hover {
+    background: #666666;
+    color: #fff;
+}
