@@ -70,3 +70,18 @@ body:after {
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out;
 }
+
+.offcanvas-menu {
+    position: relative;
+}
+
+.offcanvas-menu:after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.2);
+}
