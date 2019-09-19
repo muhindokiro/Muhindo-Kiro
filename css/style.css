@@ -964,3 +964,74 @@ body:after {
 #p5 {
     margin-left: 10%;
 }
+
+.gal-item {
+    margin-bottom: 30px;
+}
+
+.isotope,
+.isotope .item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -ms-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    -ms-transition-property: height, width;
+    -o-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    -ms-transition-property: -ms-transform, opacity;
+    -o-transition-property: top, left, opacity;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+}
+
+.form .form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.form .form-control:active,
+.form .form-control:focus {
+    border-color: #000;
+}
+
+.footer {
+    font-size: .9rem;
+}
+
+.footer .footer-title {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer a {
+    color: #000;
+}
+
+.footer a:hover {
+    color: #000;
+}
+
+figure figcaption {
+    margin-top: .5rem;
+    font-style: italic;
+    font-size: .8rem;
+}
