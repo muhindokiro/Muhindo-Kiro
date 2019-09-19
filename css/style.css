@@ -952,3 +952,15 @@ body:after {
     -o-transition: .9s;
     transition: .9s;
 }
+
+#rotate {
+    position: relative;
+}
+
+#p4 {
+    margin-left: 10%;
+}
+
+#p5 {
+    margin-left: 10%;
+}
