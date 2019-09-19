@@ -44,3 +44,15 @@ h5,
 .h5 {
     color: #000;
 }
+
+.border-2 {
+    border-width: 2px;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.bg-black {
+    background: #000 !important;
+}
