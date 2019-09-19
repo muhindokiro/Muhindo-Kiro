@@ -1035,3 +1035,7 @@ figure figcaption {
     font-style: italic;
     font-size: .8rem;
 }
+
+#home-section {
+    height: 80px;
+}
